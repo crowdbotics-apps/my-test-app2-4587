@@ -21,6 +21,7 @@ urlpatterns = [
     path('accounts/', include('allauth.urls')),
     path('api/v1/', include('home.api.v1.urls')),
     path('admin/', admin.site.urls),
+    url(r'^photos/', include('photologue.urls', namespace='photologue')),
 ]
 
 admin.site.site_header = 'my-test-app2'

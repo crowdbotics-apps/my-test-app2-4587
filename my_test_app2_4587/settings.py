@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django.contrib.sites'
+    'django.contrib.sites',
 ]
 
 MIDDLEWARE = [
@@ -148,6 +148,8 @@ LOCAL_APPS = [
     'home',
 ]
 THIRD_PARTY_APPS = [
+    'sortedm2m',
+    'photologue',
     'rest_framework',
     'rest_framework.authtoken',
     'bootstrap4',
